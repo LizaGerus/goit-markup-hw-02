@@ -1,0 +1,84 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+}
+.header {}
+
+.header-logo-link {}
+
+.header-nav {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+.header-contact-list {}
+
+.header-contact-item {}
+
+.header-mail {}
+
+.header-contact {}
+
+/* Hero section */
+.hero-section {}
+
+.hero-title {}
+
+.hero-btn {}
+
+/* First section */
+.first-section {}
+
+.first-title {}
+
+.first-list {}
+
+.first-item {}
+
+.first-subtitle {}
+
+.first-text {}
+
+/* Second section */
+.second-section {}
+
+.second-title {}
+
+.second-list {}
+
+.second-item {}
+
+.second-img {}
+
+/* Third section */
+.third-section {}
+
+.third-title {}
+
+.third-list {}
+
+.third-item {}
+
+.third-img {}
+
+.third-subtitle {}
+
+.third-text {}
+
+/* Footer */
+.footer {}
+
+.footer-link {}
+
+.footer-text {}
