@@ -1,26 +1,30 @@
 :root {
     /* Fonts */
     /* Text colors */
-    --primary-txt-cl: #434455;
+    --primary-txt-cl: #2e2f42;
     --secondary-txt-cl: #8E8F99;
     --accent-txt-cl: #E7E9FC;
     /* BG colors */
-    --primary-bg-color: #2e2f42b2;
+    --primary-bg-color: #2e2f42;
     /* Others */
     --color-iris: #4d5ae5;
     --color-ocean: #404bbf;
-    --color-navy-blue: #2e2f42;
     --color-green: #31d0aa;
     --color-cornflower: #e7e9fc;
     --color-cloud: #f4f4fd;
-    --color-navy-blue-modal: #2e2f42;
+    --color-slate: #434455;
+    --light-txt-cl: #FFFFFF;
 }
 body {
     font-family: Roboto, sans-serif;
-    color: var(--primary-txt-cl); 
+    font-size: 16px;
+    line-height: calc(24/18);
+    letter-spacing: 0.02em;
+    color: var(--primary-txt-cl);
 }
 .link {
     text-decoration: none;
+    color: currentColor;
 }
 .header {}
 
@@ -38,7 +42,11 @@ body {
 .header-item {}
 
 .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 16);
     text-decoration: none;
+    color: currentColor;
 }
 
 .header-contact-list {}
@@ -47,16 +55,23 @@ body {
     
 }
 
-.header-mail {}
+.header-mail.header-contact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 /16);
+    color: var(--color-slate);
+}
 
-.header-contact {}
 
 /* Hero section */
 .hero-section {
-    background-color: var(--color-navy-blue);
+    background-color: var(--primary-bg-color);
 }
 
-.hero-title {}
+.hero-title {
+    color: var(--light-txt-cl);
+
+}
 
 .hero-btn {}
 
@@ -101,9 +116,11 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--color-navy-blue);
+    background-color: var(--primary-bg-color);
 }
 
 .footer-logo {}
 
-.footer-text {}
+.footer-text {
+    color: var(--color-cornflower);
+}
