@@ -1,5 +1,4 @@
 :root {
-    /* Fonts */
     /* Text colors */
     --primary-txt-cl: #2e2f42;
     --secondary-txt-cl: #8E8F99;
@@ -18,7 +17,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    line-height: calc(24/18);
+    line-height: calc(24 / 18);
     letter-spacing: 0.02em;
     color: var(--primary-txt-cl);
 }
@@ -78,7 +77,6 @@ body {
 
 .hero-title {
     color: var(--light-txt-cl);
-
 }
 
 .hero-btn {}
