@@ -92,13 +92,21 @@ body {
     
 }
 
-.header-mail.header-contact {
+.header-mail {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
 }
+.header-contact{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
+
 .header-mail:hover,
 .header-mail:focus{
     color: var(--color-ocean);
@@ -272,11 +280,11 @@ body {
 
 .portfolio-item {}
 
-.button {}
-
 .portfolio-list-img {}
 
 .img-item {}
+
+.portfolio-link{}
 
 .portfolio-subtitle {
     font-weight: 500;
