@@ -20,6 +20,7 @@ body {
     line-height: calc(24 / 18);
     letter-spacing: 0.02em;
     color: var(--primary-txt-cl);
+    background-color: #FFFFFF;
 }
 .link {
     text-decoration: none;
@@ -34,15 +35,21 @@ body {
 }
 
 .header-logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24 / 18);
-    color: var(--primary-txt-cl);
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--color-iris);
 }
 
@@ -95,7 +102,9 @@ body {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: calc(60 / 56);
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: inherit;
     color: var(--light-txt-cl);
 }
 
@@ -130,6 +139,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
+    letter-spacing: inherit;
     color: var(--primary-txt-cl);
 }
 
@@ -147,6 +157,8 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(40 / 36);
+    text-align: center;
+    text-transform: capitalize;
     color: var(--primary-txt-cl);
 }
 
@@ -165,6 +177,9 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(40 / 36);
+    text-align: center;
+    letter-spacing: inherit;
+    text-transform: capitalize;
     color: var(--primary-txt-cl);
 }
 
@@ -178,6 +193,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
+    letter-spacing: inherit;
     color: var(--primary-txt-cl);
 }
 
@@ -194,12 +210,13 @@ body {
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: calc(21 / 18);
-    color: var(--color-cloud);
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-cloud);
 }
 
 .footer-text{
@@ -209,7 +226,6 @@ body {
     color: var(--color-cornflower);
 }
     
-
 .button:hover,
 .button:focus{
     color: var(--light-txt-cl);
