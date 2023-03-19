@@ -65,6 +65,10 @@ body {
 
 .header-nav {}
 
+.header-address{
+    font-style: normal;
+}
+
 .header-item {}
 
 .header-link {
@@ -91,7 +95,8 @@ body {
 .header-mail.header-contact {
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(24 /16);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-slate);
 }
 .header-mail:hover,
@@ -195,7 +200,9 @@ body {
 
 .third-list {}
 
-.third-item {}
+.third-item {
+    background-color: #FFFFFF;
+}
 
 .third-img {}
 
